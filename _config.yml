@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+mathjax:          true
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            "ChocoFruit"
+tagline:          "ChocoFruit's personal blog"
+description:      "An engineering blog"
+url:              https://chocofruit.de
+baseurl:          "/"
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/chocofruit
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
